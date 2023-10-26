@@ -12,3 +12,29 @@ npm run dev
 npm install autoprefixer@10.4.5 --save-exact
 npm run dev
 ----------------------------------------------
+2014_10_12_000000_create_users_table.php** 
+-----------------------------------------
+php artisan migrate:fresh
+--------------------------------------
+php artisan make:seeder UserSeeder
+-------------------------------------------------
+seeders/UserSeeder.php**
+----------------------------------------------
+seeders/DatabaseSeeder.php*
+----------------------------------------------
+php artisan db:seed 
+--------------------------------------------------
+resources/views/admin/dashboard.blade.php** 
+resources/views/vendor/dashboard.blade.php** 
+---------------------------------------------------
+php artisan make:controller Backend/AdminController
+php artisan make:controller Backend/VendorController
+-----------------------------------------------------
+routes/web.php** 
+---------------------------------------------------
+AdminController.php**
+VendorController.php** 
+-----------------------------------------------------
+
+
+
