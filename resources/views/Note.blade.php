@@ -35,6 +35,19 @@ routes/web.php**
 AdminController.php**
 VendorController.php** 
 -----------------------------------------------------
+php artisan make:middleware RoleMiddleware
+-------------------------------------------------
+Kernel.php** 
+-------------------------------------------------------
+Middleware/RoleMiddleware.php** 
+-------------------------------------------------------
+
+
+
+
+
+
+
 
 
 
