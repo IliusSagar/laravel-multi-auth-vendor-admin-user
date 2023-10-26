@@ -41,6 +41,9 @@ Kernel.php**
 -------------------------------------------------------
 Middleware/RoleMiddleware.php** 
 -------------------------------------------------------
+Http/Controllers/Auth/AuthenticatedSessionController.php** 
+--------------------------------------------------------
+
 
 
 
