@@ -2,6 +2,9 @@
 
 // use App\Http\Controllers\Backend\AdminController;
 // use App\Http\Controllers\Backend\VendorController;
+
+use App\Http\Controllers\Backend\AdminController;
+use App\Http\Controllers\Backend\VendorController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -27,3 +30,7 @@ require __DIR__.'/auth.php';
 
 // Route::get('admin/dashboard',[AdminController::class, 'dashboard'])->middleware(['auth', 'role:admin'])->name('admin.dashboard');
 // Route::get('vendor/dashboard',[VendorController::class, 'dashboard'])->middleware(['auth', 'role:vendor'])->name('vendor.dashboard');
+
+
+Route::get('admin/login', [AdminController::class, 'login'])->name('admin.login');
+Route::get('vendor/login', [VendorController::class, 'login'])->name('vendor.login');

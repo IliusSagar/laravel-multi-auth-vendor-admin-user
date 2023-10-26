@@ -11,4 +11,10 @@ class VendorController extends Controller
     {
         return view('vendor.dashboard');
     }
+
+    public function login()
+    {
+        return view('vendor.auth.login');
+    }
+
 }
